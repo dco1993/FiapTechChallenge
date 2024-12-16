@@ -1,0 +1,6 @@
+@Api.Consultas_HostAddress = http://localhost:5115
+
+GET {{Api.Consultas_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -25,6 +25,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools", "Tools\Tools.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worker.CadastroConsumer", "Worker.CadastroConsumer\Worker.CadastroConsumer.csproj", "{8DD830BB-0303-4ED3-B5CB-DD3EEF1C2584}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Consultas", "Consultas", "{9F55FC5E-D199-4866-9516-D3BBD7229B6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.ConsultasProducer", "Api.ConsultasProducer\Api.ConsultasProducer.csproj", "{AEA3D00C-1823-4DE1-ACE4-7F16FD364D38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worker.ConsultasConsumer", "Worker.ConsultasConsumer\Worker.ConsultasConsumer.csproj", "{82359729-BFBB-4FEA-9F57-635001947777}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +69,14 @@ Global
 		{8DD830BB-0303-4ED3-B5CB-DD3EEF1C2584}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DD830BB-0303-4ED3-B5CB-DD3EEF1C2584}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DD830BB-0303-4ED3-B5CB-DD3EEF1C2584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEA3D00C-1823-4DE1-ACE4-7F16FD364D38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA3D00C-1823-4DE1-ACE4-7F16FD364D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA3D00C-1823-4DE1-ACE4-7F16FD364D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA3D00C-1823-4DE1-ACE4-7F16FD364D38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82359729-BFBB-4FEA-9F57-635001947777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82359729-BFBB-4FEA-9F57-635001947777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82359729-BFBB-4FEA-9F57-635001947777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82359729-BFBB-4FEA-9F57-635001947777}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,5 +87,7 @@ Global
 		{B8C1347C-95D8-4AD6-955D-29ECA93091F4} = {844EED1D-DA1F-45F0-85F3-040028AC35E9}
 		{AF118772-E31C-4D61-A97B-8B4CCDA11E99} = {844EED1D-DA1F-45F0-85F3-040028AC35E9}
 		{8DD830BB-0303-4ED3-B5CB-DD3EEF1C2584} = {DCA77633-11B4-4A57-ADB7-9B2C77CAD17A}
+		{AEA3D00C-1823-4DE1-ACE4-7F16FD364D38} = {9F55FC5E-D199-4866-9516-D3BBD7229B6F}
+		{82359729-BFBB-4FEA-9F57-635001947777} = {9F55FC5E-D199-4866-9516-D3BBD7229B6F}
 	EndGlobalSection
 EndGlobal

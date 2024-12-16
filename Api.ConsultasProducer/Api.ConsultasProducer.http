@@ -1,0 +1,6 @@
+@Api.ConsultasProducer_HostAddress = http://localhost:5177
+
+GET {{Api.ConsultasProducer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
