@@ -1,0 +1,6 @@
+@Api.CadastroProducer_HostAddress = http://localhost:5153
+
+GET {{Api.CadastroProducer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
